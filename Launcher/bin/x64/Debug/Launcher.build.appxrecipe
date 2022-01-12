@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NOTEDELL</Machine>
+    <WindowsUser>lazie</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>a91f94d4-ccbf-4594-b1e7-a0fe565aab02</PackageIdentityName>
+    <PackageIdentityPublisher>CN=lazie</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\Launcher.exe">
+      <PackagePath>entrypoint\Launcher.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\4202051logosocialsocialmediatorrentutorrent-115637_115664.ico">
+      <PackagePath>Assets\4202051logosocialsocialmediatorrentutorrent-115637_115664.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Ampeross-Smooth-Opera.ico">
+      <PackagePath>Assets\Ampeross-Smooth-Opera.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Bee Music.ico">
+      <PackagePath>Assets\Bee Music.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Captura_e_Esboço.ico">
+      <PackagePath>Assets\Captura_e_Esboço.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\CCleaner_23560.ico">
+      <PackagePath>Assets\CCleaner_23560.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Clipboard 4.ico">
+      <PackagePath>Assets\Clipboard 4.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\cpuprocessorchiphardware-115841_115788.ico">
+      <PackagePath>Assets\cpuprocessorchiphardware-115841_115788.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\edge_dev_browser_logo_icon_152999.ico">
+      <PackagePath>Assets\edge_dev_browser_logo_icon_152999.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\file_type_vscode_icon_130084.ico">
+      <PackagePath>Assets\file_type_vscode_icon_130084.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\file_type_vscode_insiders_icon_130085.ico">
+      <PackagePath>Assets\file_type_vscode_insiders_icon_130085.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Fireworks_23547.ico">
+      <PackagePath>Assets\Fireworks_23547.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Fix Windows Settings.ico">
+      <PackagePath>Assets\Fix Windows Settings.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Google-Chrome-Google-Chrome.ico">
+      <PackagePath>Assets\Google-Chrome-Google-Chrome.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Iconshock-Real-Vista-Development-Defragmentation.ico">
+      <PackagePath>Assets\Iconshock-Real-Vista-Development-Defragmentation.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Martz90-Circle-Addon1-Nvidia.ico">
+      <PackagePath>Assets\Martz90-Circle-Addon1-Nvidia.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\microsoft_office_excel_logo_icon_145720.ico">
+      <PackagePath>Assets\microsoft_office_excel_logo_icon_145720.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\microsoft_office_word_logo_icon_145724.ico">
+      <PackagePath>Assets\microsoft_office_word_logo_icon_145724.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\mouse_keyboard_19688.ico">
+      <PackagePath>Assets\mouse_keyboard_19688.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Pasta.ico">
+      <PackagePath>Assets\Pasta.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Shaunkleyn-Phlat-Blue-Folders-Trash-Empty.ico">
+      <PackagePath>Assets\Shaunkleyn-Phlat-Blue-Folders-Trash-Empty.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Update.ico">
+      <PackagePath>Assets\Update.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\vlc_cone_18921.ico">
+      <PackagePath>Assets\vlc_cone_18921.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Wallpaper.ico">
+      <PackagePath>Assets\Wallpaper.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Windows Terminal as Admin.ico">
+      <PackagePath>Assets\Windows Terminal as Admin.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\WinRAR_23510.ico">
+      <PackagePath>Assets\WinRAR_23510.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Acronis.png">
+      <PackagePath>Assets\Acronis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\BeyondCompare.png">
+      <PackagePath>Assets\BeyondCompare.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Bluetooth Monitor.png">
+      <PackagePath>Assets\Bluetooth Monitor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Camtasia.png">
+      <PackagePath>Assets\Camtasia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\CoreTemp.png">
+      <PackagePath>Assets\CoreTemp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Driver_Booster_Logo.png">
+      <PackagePath>Assets\Driver_Booster_Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\logitech-unifying-software.png">
+      <PackagePath>Assets\logitech-unifying-software.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\mspaint-icon-big-256-fluent-new.png">
+      <PackagePath>Assets\mspaint-icon-big-256-fluent-new.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\PDF.png">
+      <PackagePath>Assets\PDF.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\rainmeter-blue-waterdrop-icon-thumbnail.png">
+      <PackagePath>Assets\rainmeter-blue-waterdrop-icon-thumbnail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\recycle-bin-windows.png">
+      <PackagePath>Assets\recycle-bin-windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\RevoUninstaller.png">
+      <PackagePath>Assets\RevoUninstaller.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Rufus-logo.png">
+      <PackagePath>Assets\Rufus-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\TornadoThrottleStop.png">
+      <PackagePath>Assets\TornadoThrottleStop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\TreeSize-Icon-256.png">
+      <PackagePath>Assets\TreeSize-Icon-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\VisualStudio.512x512.png">
+      <PackagePath>Assets\VisualStudio.512x512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Windows-10-Calculator-Fluent-Icon-Big-256.png">
+      <PackagePath>Assets\Windows-10-Calculator-Fluent-Icon-Big-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Windows-10X-Colorful-Notepad-Fluent-Icon.png">
+      <PackagePath>Assets\Windows-10X-Colorful-Notepad-Fluent-Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\WindScribe.png">
+      <PackagePath>Assets\WindScribe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\XAML_Controls_Gallery.png">
+      <PackagePath>Assets\XAML_Controls_Gallery.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\ConsoleLauncher.exe">
+      <PackagePath>Assets\ConsoleLauncher.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\DriversUsedSpace.exe">
+      <PackagePath>Assets\DriversUsedSpace.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Família.jpg">
+      <PackagePath>Assets\Família.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Space_C.txt">
+      <PackagePath>Assets\Space_C.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Assets\Space_D.txt">
+      <PackagePath>Assets\Space_D.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\Launcher.xr.xml">
+      <PackagePath>Launcher.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Meus Programas\Meus Projetos e Treinamentos\Launcher\Launcher\bin\x64\Debug\Core\Launcher.exe">
+      <PackagePath>Launcher.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\lazie\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\bin\x64\Release\DriversUsedSpace.exe.config
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\bin\x64\Release\DriversUsedSpace.exe
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\bin\x64\Release\DriversUsedSpace.pdb
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\obj\x64\Release\DriversUsedSpace.csproj.AssemblyReference.cache
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\obj\x64\Release\DriversUsedSpace.csproj.SuggestedBindingRedirects.cache
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\obj\x64\Release\DriversUsedSpace.csproj.CoreCompileInputs.cache
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\obj\x64\Release\DriversUsedSpace.exe
+D:\VS 2022\Meus Projetos e Treinamentos\Códigos Visual Studio 2019\DriversUsedSpace\obj\x64\Release\DriversUsedSpace.pdb
